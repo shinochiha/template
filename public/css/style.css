@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* my website */
+
+body {
+	font: 17px/28px timesnewroman, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(img/font.jpg);
+	background-position: -500px 0;
+	color: black;
+}
+
+.container {
+	width: 1100px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+	background-image: url(/img/tugas.jpg);
+}
+
+
+.header .judul {
+	font-size: 39px;
+	font-weight: bold;
+	color: blue;
+
+}
+
+.header .x {
+	font-size: 14px;
+	margin-top: 5px;
+	font-style: italic;
+	border-bottom: 2px solid gray;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.header .judul a{
+	text-decoration: none;
+	color: green;
+	display: inline-block;
+	padding-top:10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: red;
+	padding: 4px;
+	background-color: thistle;
+	font-weight: bold;
+}
+
+.header a:hover {
+	background-color: blue;
+	color: white;
+}
+
+.hero {
+	height: 350px;
+	background-image: url(/img/images.jpg);
+	background-size: cover;
+	background-position: 0 -40px;
+	border-top: 5px solid salmon; 
+	border-bottom: 5px solid salmon; 
+
+}
+
+.main {
+	padding: 18px;
+	width: 700px;
+	box-sizing: border-box;
+	float: left;
+	background-color: #ffe6e6;
+}
+
+.main h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.main .penulis{
+	font-size: 13px;
+	margin-top: -6px;
+}
+
+.main p {
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.sidebar{
+	width: 350px;
+	float: right;
+	padding: 20px;
+	background-color: #8c7373;
+}
+
+.sidebar h3{
+	font-weight: bold;
+	color: black;
+}
+
+.sidebar img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding-right: 10px; 
+}
+
+.sidebar p {
+	font:14px/18px timesnewroman;
+}
+
+.footer {
+	height: 40px;
+	background-color: black;
+	padding: 10px;
+
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+}
+
+/* micro Clear fix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
