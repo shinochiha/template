@@ -26,3 +26,7 @@ Route::get('profile', function() {
 Route::get('login', function() {
 	return view('login');
 });
+
+Route::get('halo', function ($nama) {
+    return 'Halo '.$nama;
+});
